@@ -1,0 +1,8 @@
+This Automation is about finding the fastest train and calculating the distance between source and destination.
+
+Steps
+1.Bot launches the confirm ticket site
+2.It enters the source and destination, based upon the user's Input and date will be five days from the today's date
+3.Filtering the duration and extracting the source time and destination time
+4.Based upon the source and destination, it calculates the distance and difference between the two distance
+5. Finally output the result in the message box
