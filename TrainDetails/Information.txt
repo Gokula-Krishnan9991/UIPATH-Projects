@@ -6,3 +6,6 @@ Steps
 3.Filtering the duration and extracting the source time and destination time
 4.Based upon the source and destination, it calculates the distance and difference between the two distance
 5. Finally output the result in the message box
+
+Topics
+Web Automation, Modern Design, String Manipulation
