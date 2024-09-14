@@ -8,7 +8,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1240,815</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1996,5798</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>UpdatingTheStatus_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -110,13 +110,13 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="UpdatingTheStatus" sap:VirtualizedContainerService.HintSize="552,750" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="UpdatingTheStatus" sap:VirtualizedContainerService.HintSize="2006,5733" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch-Updating the Status" sap:VirtualizedContainerService.HintSize="490,639" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+    <TryCatch DisplayName="Try Catch-Updating the Status" sap:VirtualizedContainerService.HintSize="1944,5622" sap2010:WorkflowViewState.IdRef="TryCatch_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -124,20 +124,20 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <Sequence sap:VirtualizedContainerService.HintSize="450,163" sap2010:WorkflowViewState.IdRef="Sequence_18">
+        <Sequence sap:VirtualizedContainerService.HintSize="1906,5394" sap2010:WorkflowViewState.IdRef="Sequence_18">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="388,52" sap2010:WorkflowViewState.IdRef="RetryScope_1">
+          <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1844,5283" sap2010:WorkflowViewState.IdRef="RetryScope_1">
             <ui:RetryScope.ActivityBody>
               <ActivityAction>
-                <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="1802,4948" sap2010:WorkflowViewState.IdRef="Sequence_17">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
@@ -254,7 +254,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NApplicationCard>
-                    <uix:NCheckState DisplayName="Check Whether the Update Status  new Tab opened" sap:VirtualizedContainerService.HintSize="1678,3384" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="6ccd5453-c83d-4ef2-9dfc-dd618a2a5b8f" Timeout="[cdbl(in_Config(&quot;Delay&quot;))]" Version="V3">
+                    <uix:NCheckState DisplayName="Check Whether the Update Status  new Tab opened" sap:VirtualizedContainerService.HintSize="1678,3384" sap2010:WorkflowViewState.IdRef="NCheckState_2" Timeout="[cdbl(in_Config(&quot;Delay&quot;))]" Version="V3">
                       <uix:NCheckState.IfExists>
                         <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="1174,3167" sap2010:WorkflowViewState.IdRef="Sequence_5">
                           <sap:WorkflowViewStateService.ViewState>
@@ -444,7 +444,13 @@
                         </Sequence>
                       </uix:NCheckState.IfNotExists>
                       <uix:NCheckState.Target>
-                        <uix:TargetAnchorable DesignTimeRectangle="8, 0, 450, 662" DesignTimeScaleFactor="1" FriendlyName="'ACME System'" FullSelectorArgument="&lt;ctrl name='ACME System 1 - Microsoft Edge - Personal' role='pane' /&gt;&lt;ctrl idx='2' role='pane' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ACME System 1 - Microsoft Edge - Personal' role='pane' /&gt;&lt;ctrl automationid='' role='pane' check:text='ACME System 1 - Personal - Microsoft​ Edge' /&gt;" Guid="aae4a150-0a52-435d-a7fd-ee91dab0e8ac" InformativeScreenshot="4b16dd0a97bd2e4e52d8a10014016a7a.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Personal - Microsoft​ Edge' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+                        <uix:TargetAnchorable DesignTimeRectangle="8, 0, 450, 662" DesignTimeScaleFactor="1" FriendlyName="'pane'" FullSelectorArgument="&lt;ctrl name='ACME System 1 - Microsoft Edge-*' role='pane' /&gt;&lt;ctrl idx='3' role='pane' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ACME System 1 - Microsoft Edge -*' role='pane' /&gt;&lt;ctrl automationid='' role='pane' /&gt;" Guid="941eea5a-0f0d-441b-8209-0e043c6c76fe" InformativeScreenshot="926ed9f1d69257eb10fff979d80917b8.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Profile 1 - Microsoft​ Edge' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="53, 33, 359, 26" ElementType="Text" FriendlyName="'https://acme-test.uipat…'" FullSelectorArgument="&lt;ctrl name='ACME System 1 - Microsoft Edge -*' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl name='Address and search bar' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ACME System 1 - Microsoft Edge -*' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl name='Address and search bar' role='text' automationid='' /&gt;" ImageBase64="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" SearchSteps="Selector, FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
                       </uix:NCheckState.Target>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -462,7 +468,7 @@
             </ui:RetryScope.Condition>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
@@ -470,10 +476,10 @@
         </Sequence>
       </TryCatch.Try>
       <TryCatch.Catches>
-        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="456,476" sap2010:WorkflowViewState.IdRef="Catch`1_3">
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="1910,21" sap2010:WorkflowViewState.IdRef="Catch`1_3">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>

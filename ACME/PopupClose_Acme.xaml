@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1240,795</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1530,1945</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>PopupClose_Acme_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -105,13 +105,13 @@
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="PopupClose_Acme" sap:VirtualizedContainerService.HintSize="736,730" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="PopupClose_Acme" sap:VirtualizedContainerService.HintSize="1540,1880" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="674,619" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1478,1769" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -119,13 +119,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <Sequence sap:VirtualizedContainerService.HintSize="636,391" sap2010:WorkflowViewState.IdRef="Sequence_12">
+        <Sequence sap:VirtualizedContainerService.HintSize="1440,1541" sap2010:WorkflowViewState.IdRef="Sequence_12">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:LogMessage DisplayName="Log Message-Popup" sap:VirtualizedContainerService.HintSize="574,141" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Checking whether the no report popup exists or Save as popup appears&quot;]">
+          <ui:LogMessage DisplayName="Log Message-Popup" sap:VirtualizedContainerService.HintSize="1378,141" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Checking whether the no report popup exists or Save as popup appears&quot;]">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -133,8 +133,8 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:LogMessage>
-          <Pick DisplayName="Pick activity-to check whether no report popup or save as popup appeared" sap:VirtualizedContainerService.HintSize="574,99" sap2010:WorkflowViewState.IdRef="Pick_1">
-            <PickBranch DisplayName="PickBranch-Save as " sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="PickBranch_2">
+          <Pick DisplayName="Pick activity-to check whether no report popup or save as popup appeared" sap:VirtualizedContainerService.HintSize="1378,1249" sap2010:WorkflowViewState.IdRef="Pick_1">
+            <PickBranch DisplayName="PickBranch-Save as " sap:VirtualizedContainerService.HintSize="200,1202" sap2010:WorkflowViewState.IdRef="PickBranch_2">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -180,10 +180,10 @@
                 </uix:NCheckState>
               </PickBranch.Trigger>
             </PickBranch>
-            <PickBranch DisplayName="PickBranch-No report popup" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="PickBranch_1">
+            <PickBranch DisplayName="PickBranch-No report popup" sap:VirtualizedContainerService.HintSize="1004,1202" sap2010:WorkflowViewState.IdRef="PickBranch_1">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
@@ -215,7 +215,7 @@
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:LogMessage DisplayName="Log Message-popup doesn't appear" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info" Message="[&quot;Target doesn't appear&quot;]" />
+                      <ui:LogMessage DisplayName="Log Message-popup doesn't appear" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info" Message="[&quot;No report popup appears&quot;]" />
                     </Sequence>
                   </uix:NCheckState.IfNotExists>
                   <uix:NCheckState.Target>
@@ -300,7 +300,7 @@
         </Sequence>
       </TryCatch.Try>
       <TryCatch.Catches>
-        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="640,21" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="1444,21" sap2010:WorkflowViewState.IdRef="Catch`1_1">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
